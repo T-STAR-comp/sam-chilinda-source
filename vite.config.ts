@@ -1,3 +1,4 @@
+import netlify from "@netlify/vite-plugin-tanstack-start";
 import tailwindcss from "@tailwindcss/vite";
 import { tanstackStart } from "@tanstack/react-start/plugin/vite";
 import viteReact from "@vitejs/plugin-react";
@@ -19,6 +20,7 @@ export default defineConfig({
       // Redirect TanStack Start's bundled server entry to src/server.ts (our SSR error wrapper).
       server: { entry: "server" },
     }),
+    netlify(),
     viteReact(),
     tailwindcss(),
     tsConfigPaths({ projects: ["./tsconfig.json"] }),

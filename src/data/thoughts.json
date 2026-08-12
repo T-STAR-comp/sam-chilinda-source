@@ -1,0 +1,16 @@
+{
+  "posts": [
+    {
+      "slug": "quiet-compounding",
+      "title": "Quiet compounding",
+      "date": "2026-08-11",
+      "tags": ["business", "patience"],
+      "excerpt": "Most of the work that matters happens without applause. The trick is learning to trust the slope.",
+      "content": [
+        "There's a version of progress that looks like nothing is happening. Spreadsheets barely move. Revenue ticks up by single digits. The product feels the same on the surface.",
+        "But underneath, systems are tightening. Relationships deepen. You learn which decisions repeat and which ones were noise. That slope — barely visible week to week — is where compounding lives.",
+        "I try to write when I notice one of those small shifts. Not to perform insight, but to mark the moment before it disappears into the next sprint."
+      ]
+    }
+  ]
+}
